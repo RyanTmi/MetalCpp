@@ -4,8 +4,8 @@ project "MetalCpp"
     cppdialect "C++20"
     staticruntime "off"
 
-    targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
-    objdir ("%{wks.location}/obj/" .. outputdir .. "/%{prj.name}")
+    targetdir ("%{wks.location}/Bin/" .. outputdir .. "/%{prj.name}")
+    objdir ("%{wks.location}/Obj/" .. outputdir .. "/%{prj.name}")
 
     files {
         "Source/Implementation.cpp"
